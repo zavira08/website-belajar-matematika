@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<style>
+      .navbar {
+        background-color: #00bfff;
+      }
+      .navbar-brand, .nav-link {
+        color: #fff;
+      }
+      .nav-link:hover {
+        color: #ffeb3b;
+      }
+
+      .card {
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      }
+      .card:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+      }
+      .btn-primary {
+        background-color: #a6b98c;
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: #d0f9ac;
+      }
+ </style>
+  
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Belajar Matematika</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="materispldv_1 pendahuluan(home).html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Materi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lainnya
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="materispldv_latihan soal.html">Latihan Soal</a></li>
+                  <li><a class="dropdown-item" href="materispldv_datakuiz.php">Kuiz</a></li>
+                  <li><a class="dropdown-item" href="materispldv_profil.html">Profil</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari Materi" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Cari</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </body>
+
+      
+      <!DOCTYPE html>
+      <html lang="id">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Materi SPLDV_Zavira M.M.</title>
+          <style>
+              body {
+                  font-family: 'Times New Roman', Times, serif, sans-serif;
+                  background-color: #e0e8ef;
+                  margin: 0;
+                  padding: 0;
+              }
+              .container {
+                  max-width: 1000px;
+                  margin: 20px auto;
+                  padding: 20px;
+                  background-color: #fff;
+                  border-radius: 8px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              }
+              h1 {
+                  text-align: center;
+                  font-family:cursive;
+                  font-weight: bold;
+                  font-size: 2,5rem;
+                  color: #2d89a0;
+                  background-color: #c1efe2;
+                  border-radius: 25px;
+              }
+              h2 {
+                  color: #3da7df;
+                  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-weight: bolder;
+                  font-size: 25px;
+                  margin-left: 7px;
+                  margin-right: 20px;
+                
+              }
+              h3 {color: #517ea8;
+                  background-color: #dbccf8;
+                  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-weight: bolder;
+                  font-size: 25px;
+                  border-radius: 50rem;
+                  text-align: center;
+                  margin-left: 10px;
+                  margin-right: 50em;
+                  }
+              p {
+                  font-size: 19px;
+                  color: #333;
+                  line-height: 1.6;
+                  text-align: justify;
+            text-indent: 30px; /* Menambahkan indentasi pada kalimat pertama */
+            margin-left: 10px; /* Jarak dari sisi kiri */
+            margin-right: 21px; /* Jarak dari sisi kanan */
+              }
+              .example {
+                  background-color: #fee5e5e2;
+                  padding: 10px;
+                  border-left: 15px solid #ee9797;
+                  margin: 20px;
+              }
+              code {
+                  background-color: #f5f5f5;
+                  padding: 2px 4px;
+                  border-radius: 4px;
+              }
+              
+              .highlight {
+                 background-color: #3bffd5;
+                 padding: 5px;
+                 border-radius: 5px;
+                 color: #333;
+                 font-weight: bold;
+                 margin-left: 35px;
+              }
+
+         
+          </style>
+      </head>
+      <body style="background-color: #92f6f8;">
+        <br>
+        <h3>Materi Kelas 9</h3>
+          <div class="container">
+              <h1>Sistem Persamaan Linear Dua Variabel <br> (SPLDV)</h1>
+              
+              <h2>A. Definisi SPLDV</h2>
+              
+              <p>Persamaan linear dua variabel adalah persamaan yang dapat dinyatakan dalam bentuk <code><i>ax + by = c</i></code>, dengan <code><i>x</i></code> dan <code><i>y</i></code> sebagai variabel, serta <code><i>a,b,c ϵ R (a≠0,b≠0)</i></code>. Apabila terdapat dua buah persamaan linear dua variabel yang berbentuk <code><i>ax + by = c</i></code> dan <code><i>dx + ey = f</i></code>, dengan persamaan satu dan lainnya saling berkaitan maka kedua persamaan tersebut dinamakan sistem persamaan linear dua variabel. Bentuk umum sistem persamaan linear dua variabel adalah sebagai berikut:</p>
+         
+              <div class="example">
+               
+                <img style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width:auto;" src="spldv Screenshot 2024-10-12 153857.png" alt="">
+                 <br>
+                 <p><i>x, y</i> adalah variabel dengan <i>a,b,c,d,e,f ϵ R</i></p>
+              </div>
+              
+              <p> Penyelesaian sistem persamaan linear dua variabel yang berbentuk <img src="spldv Screenshot 2024-10-12 153857.png" alt=""> dapat ditentukan dengan mencari nilai <i>x</i> dan <i>y</i> yang memenuhi kedua persamaan linear tersebut. Penyelesaian sistem persamaan linear dua variabel tersebut dapat ditulis sebagai pasangan bilangan berurutan <i>(x, y)</i>.</p>
+      
+              <h2>B. Metode Penyelesaian SPLDV</h2>
+              <p>Terdapat beberapa metode yang dapat digunakan untuk menyelesaikan SPLDV, yaitu:</p>
+              
+              <h2 class="highlight">1. Metode Grafik</h2>
+              <p style="margin-left: 50px;">Penyelesaian dari sistem persamaan linear dua variabel dapat ditentukan dengan menggunakan metode grafik. Langkah-langkah penyelesaian sistem persamaan linear dua variabel dengan menggunakan metode grafik adalah sebagai berikut.</p>
+              <ul style="margin-left: 40px; margin-right: 20px;font-size: 17px;">
+                  <li>Menggambar grafik kedua persamaan pada satu bidang koordinat.</li>
+                  <li>Menentukan perkiraan titik potong kedua grafik (jika ada).</li>
+                  <li>Memeriksa kembali titik potong kedua grafik dengan memasukkan nilai ke dalam setiap persamaan.</li>
+              </ul>
+              <p style="margin-left: 50px;">Agar lebih memahami cara penyelesaian sistem persamaan linear dua variabel dengan metode grafik, perhatikan contoh soal berikut.</p>
+              <div class="example">
+                  <p><strong>Contoh Soal:</strong><br> Tentukan penyelesaian dari sistem persamaan linear <img src="soal metode grafik Screenshot 2024-10-03 170226.png" alt=""> dengan menggunakan metode grafik!
+                  <br><br>
+                  <strong>Penyelesaian:</strong>
+                  <br><br>
+                  Untuk memudahkan kalian dalam menggambar grafik, tentukan titik potong sumbu x dan sumbu y.</p>
+<img style="display: block;
+margin-left: auto;
+margin-right: auto;
+width:auto;" src="jawaban metode grafik Screenshot 2024-10-03 165952.png" alt="">
+<p>Pada Gambar 1.15, terlihat bahwa perkiraan titik potong kedua persamaan adalah (3, -4). Untuk memastikan apakah (3, -4) merupakan titik potong kedua garis tersebut, periksalah dengan memasukkan nilai x dan y ke dalam setiap persamaan.</p>
+<img style="display: block;
+margin-left: auto;
+margin-right: auto;
+width:auto;" src="jawaban 2 metode grafik Screenshot 2024-10-02 232519.png" alt="">
+<br>
+<br>
+               <p>Jadi, penyelesaian dari sistem persamaan linear dua variabel <img src="soal metode grafik Screenshot 2024-10-03 170226.png" alt=""> adalah (3, -4)</p>
+              </div>
+      
+              <h2 class="highlight">2. Metode Substitusi</h2>
+              <p style="margin-left: 50px;">Penyelesaian dari sistem persamaan linear dua variabel dapat ditentukan dengan menggunakan metode substitusi. Langkah-langkah penyelesaian sistem persamaan linear dua variabel dengan menggunakan metode substitusi adalah sebagai berikut.</p>
+              <ul style="margin-left: 40px; margin-right: 20px;font-size: 17px;">
+                  <li>Pilih salah satu persamaan, misal persamaan I kemudian nyatakan salah satu variabelnya dalam bentuk variabel lain.</li>
+                  <li>Substitusikan atau gantikan persamaan yang diperoleh dari langkah pertama ke persamaan lain pada sistem persamaan linear dua variabel.</li>
+                  <li>Substitusi nilai variabel yang sudah diperoleh dari langkah kedua pada salah satu persamaan, untuk memperoleh nilai variabel lain.</li>
+              </ul>
+              <p style="margin-left: 50px;">Agar lebih memahami cara penyelesaian sistem persamaan linear dua variabel dengan metode substitusi, perhatikan contoh soal berikut.</p>
+              <div class="example">
+                  <p><strong>Contoh Soal:</strong><br> Tentukan penyelesaian dari sistem persamaan linear <img src="soal metode substitusi Screenshot 2024-10-12 120819.png" alt=""> dengan menggunakan metode substitusi!
+                  <br><br>
+                  <strong>Penyelesaian:</strong>
+                  <br>
+                    1) Persamaan I diubah menjadi x = 3 + y
+                    <br>
+                    2) Substitusikan x = 3 + y ke persamaan II, diperoleh:
+                    <br>
+                  <img style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width:auto;" src="jawaban metode substitusi Screenshot 2024-10-12 145221.png" alt="">
+                  <br>  
+                    3) Substitusi nilai y = -1 ke persamaan x = 3 + y,diperoleh:
+                 <br>
+                 <img style="display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width:auto;" src="jawaban 2 metode substitusi Screenshot 2024-10-12 150628.png" alt="">
+                 <br>
+                  Dari uraian di atas diperoleh nilai x = 2 dan y = -1. Jadi, penyelesaian dari sistem persamaan linear dua variabel <img src="soal metode substitusi Screenshot 2024-10-12 120819.png" alt=""> adalah (2, -1).
+                  </p>
+      
+              </div>
+      
+              <h2 class="highlight">3. Metode Eliminasi</h2>
+              <p style="margin-left: 50px;">Penyelesaian dari sistem persamaan linear dua variabel dapat ditentukan dengan menggunakan metode eliminasi. Metode eliminasi adalah mengeliminasi atau menghilangkan satu variabel untuk menyelesaikan variabel lainnya. Langkah-langkah penyelesaian sistem persamaan linear dua variabel dengan menggunakan metode eliminasi adalah sebagai berikut.</p>
+              <ul style="margin-left: 40px; margin-right: 20px;font-size: 17px;">
+                  <li>Eliminasi salah satu variabel dengan menjumlahkan atau mengurangkan kedua persamaan.</li>
+                  <li>Hitung nilai variabel lainnya.</li>
+              </ul>
+              <p style="margin-left: 50px;">Agar lebih memahami cara penyelesaian sistem persamaan linear dua variabel dengan metode eliminasi, perhatikan contoh soal berikut.</p>
+              <div class="example">
+                  <p><strong>Contoh Soal:</strong><br>Tentukan penyelesaian dari sistem persamaan linear <img src="soal metode eliminasi Screenshot 2024-10-12 152418.png" alt=""> dengan menggunakan metode eliminasi!
+                  <br><br>
+                  <strong>Penyelesaian:</strong>
+                  <br>
+                  1) Untuk mengeliminasi variabel x, persamaan I dikalikan dengan 3 dan persamaan II dikalikan dengan 1.
+                  <br>
+                  <img style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width:auto;" src="jawaban metode eliminasi Screenshot 2024-10-12 152804.png" alt="">
+                  <br>  
+                  2) Untuk mengeliminasi variabel y, persamaan I dikalikan dengan 2 dan persamaan II dikalikan dengan 3.
+                  <br>
+                  <img style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width:auto;" src="jawaban 2 metode eliminasi Screenshot 2024-10-12 153153.png" alt="">
+                  <br>
+                  Dari uraian di atas diperoleh nilai x = 5 dan y = 10. Jadi, penyelesaian dari sistem persamaan linear dua variabel <img src="soal metode eliminasi Screenshot 2024-10-12 152418.png" alt=""> adalah (5, 10).
+
+              </p>
+                  
+              </div>
+      
+              <h2 class="highlight">4. Metode Campuran</h2>
+              <p style="margin-left: 50px;">Penyelesaian dari sistem persamaan linear dua variabel dapat ditentukan dengan menggunakan metode campuran. Metode campuran adalah gabungan dari metode substitusi dan eliminasi. Langkah-langkah penyelesaian sistem persamaan linear dua variabel dengan menggunakan metode campuran adalah sebagai berikut.</p>
+              <ul style="margin-left: 40px; margin-right: 20px;font-size: 17px;">
+                  <li>Eliminasi salah satu variabel.</li>
+                  <li>Substitusikan nilai variabel ke salah satu persamaan pada sistem persamaan linear dua variabel.</li>
+              </ul>
+              <p style="margin-left: 50px;">Agar lebih memahami cara penyelesaian sistem persamaan linear dua variabel dengan metode campuran, perhatikan contoh soal berikut.</p>
+              <div class="example">
+                  <p><strong>Contoh Soal:</strong><br>Tentukan penyelesaian dari sistem persamaan linear <img src="soal metode campuran Screenshot 2024-10-12 170214.png" alt=""> dengan menggunakan metode campuran!
+                    <br><br>
+                    <strong>Penyelesaian:</strong>
+                    <br>
+                    1) Eliminasi salah satu variabel. Untuk mengeliminasi variabel x, persamaan I dikalikan dengan 1 dan persamaan II dikalikan dengan 2.
+                    <br>
+                    <img style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width:auto;" src="jawaban metode campuranScreenshot 2024-10-12 171211.png" alt="">
+                    <br>
+                    2) Substitusikan nilai variabel ke salah satu persamaan pada sistem persamaan linear dua variabel.
+                    Substitusi nilai y=5 ke persamaan I.
+                    <br>
+                    <img style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width:auto;" src="jawaban 2 metode campuran Screenshot 2024-10-12 171653.png" alt="">
+                    <br>
+                    Dari uraian di atas diperoleh nilai x = -4 dan y = 5. Jadi, penyelesaian dari sistem persamaan linear dua variabel <img src="soal metode campuran Screenshot 2024-10-12 170214.png" alt=""> adalah (-4, 5).
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align: right;">
+            <a href="#" class="btn btn-primary">Kembali ke atas</a>
+        </div>    
+
+          <p><strong>Daftar Pustaka</strong></p>
+        <p>Kristanto, Yosep Dwi dkk. (2022). <i>Matematika untuk SMP/MTs Kelas IX</i>. Jakarta Selatan: Pusat Perbukuan.</p>
+  
+      </body>
+      </html>
+      
+
+
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="card text-center">
+        <div class="card-header">
+          Zavira Mardhatillah Maulidia (E1R022099)
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" style="line-height: 1.5;">Program Studi Pendidikan Matematika<br>
+            Fakultas Keguruan dan Ilmu Pendidikan<br>
+            Universitas Mataram</h5>
+        </div>
+        <div class="card-footer text-body-secondary">
+          2024
+        </div>
+      </div>
+
+</body>
+</html>
